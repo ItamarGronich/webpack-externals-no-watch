@@ -1,0 +1,23 @@
+{
+  "name": "webpack-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --watch --progress",
+    "build": "NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "underscore": "^1.13.4"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
